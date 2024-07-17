@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        form{
+            margin:25px;
+            margin-top: -2px;
+            background-color: rgb(234, 236, 145);
+        }
+        legend{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+      <fieldset>
+        <legend>Feedback Form</legend>
+        <label for="firstname">Student Name : </label>
+        <input type="text" id="firstname" required>
+        <br><br>
+         <label for="email">Email : </label>
+         <input type="email" id="email" required>
+         <br><br>
+
+         <label for="mobno">Whatsapp Number : </label>
+         <input type=" tel"id="mobno">
+         <br><br>
+
+         <label for="mobno">Alternative Number : </label>
+         <input type=" tel"id="mobno">
+
+         <br><br>
+        
+         <label for="joindate">Joining Date : </label>
+         <input type="date" id="joindate">
+           
+         <br><br>
+        
+         <label for="course">Course Name: </label>
+         <input type="text" id="course">
+
+         <br><br>
+         <label for="mentor">Mentor Name: </label>
+         <select name="" id="mentor">
+           <option value="">
+                choose
+            </option>
+            <option value="">
+                Sushant Sir
+            </option>
+            <option value="">
+                Janhavi Madam
+            </option>
+            <option value="">
+                Vaibhav Sir
+            </option>
+            <option value="">
+                Ravindra Sir
+            </option>
+         </select>
+         <br><br>
+         <div id="task">
+            <label for="task"> Does your Mentor gives you practice session(task)?</label>
+            <br>
+         <label for="yes"> Yes</label>
+         <input type="radio" id="yes">
+         <label for="no"> No</label>
+         <input type="radio" id="no">
+         <label for="un"> Unsatisfied</label>
+         <input type="radio" id="un">
+         
+         </div>
+         <br><br>
+         <div id="feed">
+            <label for="feed">How much you will rate for overall fortune cloud IT services:</label>
+            <br>
+         <label for="1">1</label>
+         <input type="radio" id="1" name="rating">
+         <br>
+         <label for="2">2</label>
+         <input type="radio" id="2" name="rating">
+         <br>
+         <label for="3">3</label>
+         <input type="radio" id="3" name="rating">
+         <br>
+         <label for="4">4</label>
+         <input type="radio" id="4" name="rating">
+         <br>
+         <label for="5">5</label>
+         <input type="radio" id="5" name="rating">
+         
+         
+         </div>
+         <label for="sugg">Any suggestion for trainner:</label>
+         <br>
+        <textarea id="sugg" rows="3" cols="20">
+          
+        </textarea>
+        <br>
+        <input type="submit" id="submit" style="background-color: green;" >    <button type="reset" style="background-color: green;">Reset</button>
+
+    </fieldset>
+
+
+    </form>
+
+    
+</body>
+</html>
