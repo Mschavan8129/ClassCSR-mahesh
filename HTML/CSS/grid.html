@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    
+
+    <style>
+        .grid-container{
+            background-color: rgb(6, 112, 112);
+            display:grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            margin:10%;
+            grid-gap: 20px;
+        }
+        .header{
+            grid-column: 1/7;
+        }
+        .menu{
+            grid-area: 2/1/span 2/span 2;
+        }
+        .main{
+            grid-column: 3/6;
+        }
+        .footer{
+            grid-column: 3/7;
+        }
+        .item{
+            background-color: aqua;
+            padding: 40px 80px;
+            text-align: center;
+            font-size: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header  item">Header</div>
+        <div class="menu  item">Menu</div>
+        <div class="main  item">Main</div>
+        <div class="right  item">Right</div>
+        <div class="footer  item">Footer</div>
+
+    </div>
+</body>
+</html>
