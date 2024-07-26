@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.certificate {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  border: 5px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+.certificate .content{
+  
+  position:absolute;
+  
+  background-color: #fffdfd;
+  border: 2px solid #f0f895;
+  top: 7mm;
+  right: 7mm;
+  bottom: 7mm;
+  left: 7mm;
+
+}
+.content .certificate-content{
+  
+  position:absolute;
+  
+  background-color: #fafafa;
+  border: 1px solid #f3f9b2;
+  top: 5mm;
+  right: 5mm;
+  bottom: 5mm;
+  left: 5mm;
+
+
+}
+
+
+
+.certificate-content .title {
+  margin-top: 40px;
+  margin-left: 0%;
+  margin-right: 250px;
+  font-weight: bold;
+
+  
+    font-size: 45pt;
+}
+ .certificate-logo{
+  margin-top: 0%;
+}
+.certificate-content .subtitle{
+  font-size: 15pt;
+  margin-right: 430px;
+
+}
+ .certificate-logo img{
+  width:30mm;
+  height: 40mm;
+  
+}
+.certificate .certificate-content .certificate-logo {
+  position: absolute;
+  left: auto;
+  top: 0mm;
+  right: 1mm;
+  position: absolute;
+  z-index: 1;
+}
+.certificate-content .sub1{
+  padding-left: 0;
+  margin-top: 30px;
+  margin-right: 270px;
+  font-size: 15pt;
+
+}
+.certificate-content .name
+{
+  margin-top: 40px;
+  font-size:40pt;
+  font-family: brush script mt, cursive;
+
+}
+
+.certificate-content .para{
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.sign{
+  margin-top: 50px;
+}
+.sign .sign1{
+
+  float: left;
+  margin-left: 100px;
+}
+ .sign .sign2{
+  float: right;
+  margin-right: 100px;
+ }
+ .line{
+  width:150px;
+  height: 0px;
+  border: 1px solid rgb(248, 227, 64);
+  
+ }
+ .sign1 .pd{
+  padding-top: 10px;
+ }
+ .sign2 .gd {
+  padding-top: 10px;
+ }
+
+
+/*.top-right-decor{
+  width: 80mm;
+  height: 12mm;
+  background-color: #0044cc;
+  position: absolute;
+  right: 40mm;
+  transform: rotate(-34deg);
+  z-index: auto;
+}
+*/
+.top-left-d{
+    position: sticky;
+    top: 0;
+    right: -83px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #364563, #47607d);
+    clip-path: polygon(0 0, 90% 0, 0 90%);
+  
+
+}
+.top-right-decor{
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(to right, #364563, #47607d);
+  position: absolute;
+  right: 40mm;
+  z-index: 1;
+
+}
+.top-right-decor{
+  top: 0;
+  right: -1px;
+  background: linear-gradient(to right, #364563, #47607d);
+  clip-path: polygon(100% 0%, 50% 0%, 100% 100%);
+}
+
+.bottom-left-decor{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, #364563, #47607d);
+  clip-path: polygon(0 0, 90% 0, 0 90%);
+  z-index: 1;
+}
+.bottom-right-d{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, #364563, #47607d);
+  clip-path: polygon(0 0, 90% 0, 0 90%);
+}
+
+.bottom-left-decor{
+  bottom: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.bottom-right-d{
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.top-left-d{
+  z-index: 1;
+}
