@@ -1,0 +1,271 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: bisque;
+}
+
+/* Visiting Card Styles */
+.id_front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt;/* 23px */
+    background-color: white;
+    border: 0.75pt solid #ffffff; /* 1px */
+
+    overflow: hidden;
+}
+.id_front .id_background{
+    background-color: white;
+    height: 100%;
+}
+.id_front .top_left{
+    right:0mm;
+    top:-5mm;
+    width: 10mm;
+    height: 33mm;
+    background: orange;
+    transform: skewY(-45deg);
+    position: relative;
+    
+
+}
+.id_front .top_right{
+    
+    top: -33mm;
+    left: 35mm;
+    width: 25mm;
+    height: 25mm;
+    background-color: green;
+    position:relative;
+    clip-path: polygon(0 0,100% 0,100% 100%);
+}
+.id_front .top_right1{
+    top: -53mm;
+    left: 44mm;
+    width: 3mm;
+    height: 20mm;
+    position: relative;
+    background-color: green;
+    transform: skew(43deg); 
+}
+.id_front .top_right2{
+    top: -64mm;
+    left: 44mm;
+    width: 1mm;
+    height: 8mm;
+    position: relative;
+    background-color: green;
+    transform: skew(44deg); 
+}
+.id_front .id_bottom {
+    top: -10mm;
+    width: 100%;
+    height: 8mm;
+    position: relative;
+    background-color: hsl(0, 87%, 56%);;
+}
+img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+}
+.id_front  .logo{
+    top: -80mm;
+    left: 23mm;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.id_front .image{
+    top: -78mm;
+    left: 12mm;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.photo{
+    width: 130px;
+    height: 130px;
+}
+.id_front .name{
+    top: -55mm;
+    left: 10mm;
+    font-family: "Trirong", serif;
+    font-weight: bolder;
+    position: relative;
+}
+.id_front .desg{
+    top: -57mm;
+    left: 14mm;
+    font-family: "Trirong", serif;
+    font-size: 8pt;
+    position: relative;
+}
+.id_front .contact{
+    top: -57mm;
+    left: 12mm;
+    font-family: "Trirong", serif;
+    font-size: 8pt;
+    position: relative;
+}
+.id_front .fac{
+    top: -57mm;
+    left: 12mm;
+    position: relative;
+}
+.id_front .twit{
+    top: -68.5mm;
+    left:25mm;
+    position: relative;
+}
+.twitter-icon{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+.id_front .whatsapp{
+    top: -62mm;
+    left: 17mm;
+    position: relative;
+    
+}
+.whats{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+
+.id_front .instagram{
+    top:-75mm;
+    left:33mm;
+    position: relative;
+    
+}
+.intsa{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.icon{
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+}
+
+.back{
+    
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    /* margin-right:30%;
+    margin-top: 12%; 23px */
+    margin: 17.25pt;
+
+    background-color: white;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt;
+
+}
+.back .back-top-right{
+    left: 34mm;
+    width: 25mm;
+    height: 25mm;
+    background-color: hsl(0, 87%, 56%);
+    position:relative;
+    clip-path: polygon(0 0,100% 0,100% 100%);
+}
+.back .back-bottom-left{
+
+    top:34mm;
+    width: 25mm;
+    height: 25mm;
+    background-color: hsl(0, 87%, 56%);;
+    position:relative;
+    clip-path: polygon(0 0,0 100%,100% 100%); 
+}
+.back .company-name{
+    top:-45mm;
+    left: 23mm;
+    font-family: "Trirong", serif;
+    font-size: 18pt;
+    font-weight: bolder;
+    position: relative;
+}
+.back .private{
+    top:-48mm;
+    left: 15mm;
+    font-family: "Trirong", serif;
+    font-size: 15pt;
+    font-weight:bolder;
+    position: relative;
+}
+.back .tagline{
+    top:-48mm;
+    left: 15mm;
+    font-family: "Trirong", serif;
+    font-size: 8pt;
+    font-weight:bolder;
+    position: relative;
+}
+
+.back .qr{
+    top:-42mm;
+    left: 22mm;
+    
+    position: relative;
+}
+.qr-img{
+    width:60px;
+    height: 60px;
+    border-radius: 0%;
+}
+.back .ID{
+    top:-40mm;
+    left: 22mm;
+    font-family: "Trirong", serif;
+    font-size: 7pt;
+    font-weight:bolder;
+    position: relative;
+}
+.back .valid{
+    top:-40mm;
+    left: 18mm;
+    font-family: "Trirong", serif;
+    font-size: 7pt;
+    font-weight:lighter;
+    position: relative;
+}
+.back .para{
+    top:-40mm;
+    left: 11mm;
+    font-family: "Trirong", serif;
+    font-size: 5pt;
+    font-weight:lighter;
+    position: relative;
+}
+
+.back .back-logo{
+    top:-37mm;
+    left: 27mm;
+    
+    position: relative;
+}
+.logo-back{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

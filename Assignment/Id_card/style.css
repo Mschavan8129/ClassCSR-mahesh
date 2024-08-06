@@ -1,0 +1,140 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 0pt; /* 0px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+    background-color: rgb(248, 11, 165);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-front .id-pink {
+    left: 102pt; /* 136px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 68.1pt; /* 90.8px */
+    height: 22.5pt; /* 30px */
+    background-color: rgb(245, 117, 200);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-front .id-light-pink {
+    left: 51pt; /* 68px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+    background-color: rgb(250, 97, 197);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt; /* 19px */
+}
+
+.org-logo img {
+    max-width: 20.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 7.5pt; /* 10px */
+    top: 7.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 18.75mm; /* 25mm */
+    height: 15.75mm; /* 21mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: 5.25mm; /* 7mm */
+    left: 42pt; /* 56px */
+}
+
+.user-name {
+    font-size: 1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 35mm;
+    left: 11mm;
+}
+
+.id-number {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 48mm;
+    left: 12mm;
+}
+
+.org-name {
+    font-size: -1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 54mm;
+    left: 8mm;
+}
+
+.org-address {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 60mm;
+    left: 16mm;
+}
